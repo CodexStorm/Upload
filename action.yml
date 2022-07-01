@@ -1,4 +1,4 @@
-name: 'Upload API'
+name: 'Upload VEga API'
 description: 'Uploads Api to viewing service'
 inputs:
   file-path:
