@@ -20,7 +20,7 @@ runs:
       - name: Edit API
         uses: fjogeleit/http-request-action@v1
         with:
-          url: 'https://51ad-24-19-134-8.ngrok.io/editMasterApi'
+          url: 'https://5d7c-24-19-134-8.ngrok.io/editMasterApi'
           method: 'POST'
           customHeaders: '{"Content-Type": "application/json"}'
           data: '{"apiKey": "${{ inputs.apiKey }}", "openSpec": ${{ inputs.openSpec }}, "authEndPoint": "${{ inputs.authEndPoint }}", "server": "${{ inputs.server }}"}'
