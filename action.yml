@@ -25,6 +25,6 @@ runs:
           url: 'https://b2eb-24-19-134-8.ngrok.io/editMasterApi'
           method: 'POST'
           customHeaders: '{"Content-Type": "application/json"}'
-          data: '{"apiKey": "${{ inputs.apiKey }}", "openSpec": ${{ inputs.openSpec }}, "authEndPoint": "${{ inputs.authEndPoint }}", "server": "${{ inputs.server }}"}'
+          data: '{"json": {"apiKey": "${{ inputs.apiKey }}", "openSpec": ${{ inputs.openSpec }}, "authEndPoint": "${{ inputs.authEndPoint }}", "server": "${{ inputs.server }}"}}'
 
    
